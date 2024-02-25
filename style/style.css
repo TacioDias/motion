@@ -107,7 +107,7 @@ header  {
     justify-content: space-around;
     align-items: center;
     border-bottom: 3px solid var(--borda);
-    background-color:  rgba(0, 0, 0, 0.144) /*rgba(99, 79, 58, 0.226)*/;
+    background-color:  rgba(0, 0, 0, 0.192);
     
 }
 
@@ -154,10 +154,14 @@ header #logo {
 
 #ico    {
     color: white; 
-    font-size: 1.6em; 
+    font-size: 1.4em; 
     transition: 0.3s;
     padding: 10px;
     border: 3px solid transparent;
+}
+
+#ico:hover  {
+    border-bottom: 2px solid white;
 }
 
 header a   {
@@ -165,6 +169,10 @@ header a   {
     font-weight: bolder;
     font-size: 1.3em;
     text-decoration: none;
+}
+
+header a:hover  {
+    text-decoration: underline;
 }
 
 header p   {
